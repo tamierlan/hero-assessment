@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.banner {
+  height: 100vh;
+  background-image: url("hero_img_01.jpg");
+  background-size: cover;
+}
+.hero {
+  padding-top: 300px;
+  text-align: center;
+  margin: 0% 15% 0% 15%;
+}
+h2 {
+  color: white;
+}
+button {
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.modal {
+  position: fixed;
+  top: 300px;
+  left: 30%;
+  right: 30%;
+}
+@media screen and (max-width: 678px) {
+  .banner {
+    background-image: url("Hero_img_mobile_01.jpg");
+  }
+  .modal {
+    left: 20%;
+    right: 20%;
+  }
+}
